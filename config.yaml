@@ -20,7 +20,7 @@
 # Example: "Custom" will yield the family "Rec Mono Custom". 
 # Keep under 13 characters in length to avoid potential OS bugs.
 
-Family Name: Custom 
+Family Name: Blocky 
 
 # -----------------------------------------------------------------------------
 # Font Styles
@@ -37,28 +37,28 @@ Family Name: Custom
 Fonts:
 
   Regular:
-    MONO: 1
+#    MONO: 1
     CASL: 0
     wght: 425
     slnt: 0
     CRSV: 0
 
   Italic:
-    MONO: 1
+#    MONO: 1
     CASL: 1
     wght: 425
     slnt: -10
     CRSV: 1
 
   Bold:
-    MONO: 1
+#    MONO: 1
     CASL: 0
     wght: 750
     slnt: 0
     CRSV: 0
 
   Bold Italic:
-    MONO: 1
+#    MONO: 1
     CASL: 1
     wght: 750
     slnt: -10
@@ -68,7 +68,7 @@ Fonts:
 # Font Features
 
 # Freeze in code ligatures? True or False
-Code Ligatures: True
+Code Ligatures: False
 
 # Include font features to freeze in stylistic options. Copy them below to use. 
 # See README for details.
@@ -99,15 +99,15 @@ Code Ligatures: True
 
 # (Keep the hyphen before each list item)
 Features:
-- ss01 # Single-story a
+#- ss01 # Single-story a
 - ss02 # Single-story g
 - ss03 # Simplified f
 - ss05 # Simplified l
-- ss06 # Simplified r
+#- ss06 # Simplified r
 - ss08 # Serifless L and Z
 - ss09 # Simplified 6 and 9
-- ss10 # Dotted 0
-- ss11 # Simplified 1
+#- ss10 # Dotted 0
+#- ss11 # Simplified 1
 - ss12 # Simplified @
-
+- ss20 # Slashed zero for sans
 # That’s it! See README for next steps.

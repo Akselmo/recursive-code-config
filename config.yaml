@@ -45,10 +45,10 @@ Fonts:
 
   Italic:
 #    MONO: 1
-    CASL: 1
+    CASL: 0
     wght: 425
     slnt: -10
-    CRSV: 1
+    CRSV: 0
 
   Bold:
 #    MONO: 1
@@ -59,10 +59,10 @@ Fonts:
 
   Bold Italic:
 #    MONO: 1
-    CASL: 1
+    CASL: 0
     wght: 750
     slnt: -10
-    CRSV: 1
+    CRSV: 0
 
 # -----------------------------------------------------------------------------
 # Font Features
